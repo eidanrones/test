@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Book confidence-building motorcycle rides, CBT-ready commuter coaching, scenic tours, and AI-planned guided trips with Dennis."
+    />
+    <title>Dennis Motorcycle Coaching & Guided Rides</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Dennis Motorcycle Coaching home">
+          <span class="brand-mark">DM</span>
+          <span>Dennis Moto Coaching</span>
+        </a>
+        <div class="nav-links">
+          <a href="#packages">Packages</a>
+          <a href="#planner">Trip Planner</a>
+          <a href="#booking">Book</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">CBT-ready confidence · guided rides · custom tours</p>
+          <h1>Ride safer, smoother, and with more confidence on roads you actually use.</h1>
+          <p class="hero-copy">
+            Practical motorcycle coaching and guided rides with Dennis, built around your bike,
+            your route, and your real-world riding goals.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#booking">Request a booking</a>
+            <a class="button button-secondary" href="#packages">View packages</a>
+          </div>
+          <dl class="trust-bar" aria-label="Service highlights">
+            <div>
+              <dt>£50/hr</dt>
+              <dd>Guiding base rate</dd>
+            </div>
+            <div>
+              <dt>3 core</dt>
+              <dd>Ride packages</dd>
+            </div>
+            <div>
+              <dt>AI</dt>
+              <dd>Custom trip planning</dd>
+            </div>
+          </dl>
+        </div>
+        <aside class="hero-card" aria-label="Fast booking summary">
+          <div class="status-pill">Live availability</div>
+          <h2>Plan your next ride</h2>
+          <p>Choose coaching, touring, bike rental, or passenger coaching and receive a tailored quote.</p>
+          <ul>
+            <li>Confirmed slots are protected from double-booking.</li>
+            <li>Email updates keep you informed after every request.</li>
+            <li>Saved itineraries stay private in your rider archive.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="section problem-solution" aria-labelledby="why-title">
+        <div>
+          <p class="eyebrow">Why riders book</p>
+          <h2 id="why-title">Stop guessing. Practice with a guide who targets the moments that matter.</h2>
+        </div>
+        <div class="benefit-grid">
+          <article>
+            <h3>Commute confidence</h3>
+            <p>Rehearse your daily route after CBT and learn safer positioning, pacing, and junction decisions.</p>
+          </article>
+          <article>
+            <h3>Real-road technique</h3>
+            <p>Focus on roundabouts, filtering, higher-speed roads, braking distance, and hazard awareness.</p>
+          </article>
+          <article>
+            <h3>Better tours</h3>
+            <p>Generate scenic or technical ride plans matched to your motorcycle type and riding style.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="packages" class="section packages" aria-labelledby="packages-title">
+        <p class="eyebrow">Packages</p>
+        <h2 id="packages-title">Pick the ride that matches your goal.</h2>
+        <div class="cards">
+          <article class="card featured-card">
+            <p class="tag">CBT-ready</p>
+            <h3>Commuter Companion</h3>
+            <p>For new riders who want confidence navigating their daily route after passing CBT.</p>
+            <ul>
+              <li>Route-specific coaching</li>
+              <li>Safer junction decisions</li>
+              <li>Practical commuting confidence</li>
+            </ul>
+            <a href="#booking" class="card-link">Start commuting smarter</a>
+          </article>
+          <article class="card">
+            <p class="tag">Technique</p>
+            <h3>Confidence Builder Session</h3>
+            <p>Concentrated practice on the real-world scenarios riders most want to improve.</p>
+            <ul>
+              <li>Junctions and roundabouts</li>
+              <li>High-speed filtering</li>
+              <li>Road positioning feedback</li>
+            </ul>
+            <a href="#booking" class="card-link">Build confidence</a>
+          </article>
+          <article class="card">
+            <p class="tag">Touring</p>
+            <h3>Leisure & Scenic Ride</h3>
+            <p>Tailored solo or group rides through technical corners and country lanes with Dennis.</p>
+            <ul>
+              <li>Scenic route planning</li>
+              <li>Solo or group options</li>
+              <li>Safe pacing support</li>
+            </ul>
+            <a href="#booking" class="card-link">Plan a scenic ride</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="planner" class="section planner" aria-labelledby="planner-title">
+        <div class="planner-copy">
+          <p class="eyebrow">Advanced AI Trip Planner</p>
+          <h2 id="planner-title">Custom tours built around your bike, passenger, and budget.</h2>
+          <p>
+            The trip planner creates tailored motorcycle itineraries with safety guidance, route style,
+            cost estimates, and private archiving for logged-in riders.
+          </p>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3>Adaptive handling</h3>
+            <p>Route style and safety guidance adapt for cruisers, sportbikes, adventure tourers, naked bikes, and scooters.</p>
+          </article>
+          <article>
+            <h3>Pillion mode</h3>
+            <p>Passenger-aware pacing, braking distance, cornering dynamics, and weight-transfer reminders.</p>
+          </article>
+          <article>
+            <h3>Route archiving</h3>
+            <p>Logged-in users can save generated trips to a secure, private Firestore-powered itinerary archive.</p>
+          </article>
+          <article>
+            <h3>Instant cost calculation</h3>
+            <p>Estimate rides from £50/hour, with optional £150/day bike rental and £50/day passenger coaching.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="booking" class="section cta" aria-labelledby="booking-title">
+        <p class="eyebrow">Ready to ride?</p>
+        <h2 id="booking-title">Request a booking and get a guided plan for your next mile.</h2>
+        <p>
+          Tell Dennis what you ride, where you want to improve, and whether you need scenic touring,
+          commuter support, rental, or pillion coaching.
+        </p>
+        <a class="button button-primary" href="mailto:dennismark2603@gmail.com?subject=Motorcycle%20coaching%20booking%20request">Email Dennis to book</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Dennis Motorcycle Coaching. Built for safer, more confident rides.</p>
+      <a href="ADMIN_DOCUMENTATION.md">Admin documentation</a>
+    </footer>
+  </body>
+</html>
